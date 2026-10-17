@@ -1,0 +1,9 @@
+EmployeeID,FirstName,LastName,Email,Department,Manager,Status,JobTitle
+M001,John,Doe,john.doe@company.com,Management,,Active,Director
+E001,Alice,Smith,alice.smith@company.com,IT,M001,Leaver,HR Specialist
+E002,Bob,Jones,bob.jones@company.com,IT,M001,Leaver,
+E004,David,Miller,david.miller@company.com,HR,M001,Mover,Security Analyst
+E006,Frank,jatt,frank.jatt@company.com,HR,M001,Joiner,HR Coordinator
+E007,Grace,Lee,grace.lee@company.com,HR,M001,Joiner,HR Coordinator
+E003,Carol,White,carol.white@company.com,IT,M001,Active,Security Analyst
+E005,Eve,Brown,eve.brown@company.com,IT,M001,Active,SysAdmin

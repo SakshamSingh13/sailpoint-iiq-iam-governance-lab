@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE IdentityTrigger PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<IdentityTrigger created="1792154480314" handler="sailpoint.api.WorkflowTriggerHandler" id="c0a80004a144155a81a144bb2eb800c0" name="Joiner" type="Create">
+  <Owner>
+    <Reference class="sailpoint.object.Identity" id="c0a80004a144133a81a14483b63d00e6" name="spadmin"/>
+  </Owner>
+  <HandlerParameters>
+    <Attributes>
+      <Map>
+        <entry key="workflow" value="Lifecycle Event - Joiner"/>
+      </Map>
+    </Attributes>
+  </HandlerParameters>
+</IdentityTrigger>

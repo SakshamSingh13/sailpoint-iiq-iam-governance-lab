@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE Policy PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<Policy certificationActions="Remediated,Mitigated,Delegated" configPage="sodpolicy.xhtml" created="1792213933389" executor="sailpoint.policy.SODPolicyExecutor" id="c0a80007a14718e681a148465d4d010b" name="IT-vs-HR-SOD" state="Active" type="SOD" typeKey="policy_type_sod" violationOwnerType="Identity">
+  <PolicyAlert disabled="true" escalationStyle="none"/>
+  <Attributes>
+    <Map>
+      <entry key="sysDescriptions">
+        <value>
+          <Map>
+            <entry key="en_US"/>
+          </Map>
+        </value>
+      </entry>
+    </Map>
+  </Attributes>
+  <Owner>
+    <Reference class="sailpoint.object.Identity" id="c0a80004a144133a81a14483b63d00e6" name="spadmin"/>
+  </Owner>
+  <ViolationOwner>
+    <Reference class="sailpoint.object.Identity" id="c0a80004a144133a81a14483b63d00e6" name="spadmin"/>
+  </ViolationOwner>
+  <SODConstraints>
+    <SODConstraint created="1792213933389" id="c0a80007a14718e681a148465d4d010c" name="IT-HR-Conflict" violationOwnerType="None">
+      <LeftBundles>
+        <Reference class="sailpoint.object.Bundle" id="c0a80004a144155a81a144a7995e007a" name="IT-Dept-Access"/>
+      </LeftBundles>
+      <RightBundles>
+        <Reference class="sailpoint.object.Bundle" id="c0a80004a144155a81a144acd675008b" name="HR-Speciality-Access"/>
+      </RightBundles>
+    </SODConstraint>
+  </SODConstraints>
+</Policy>

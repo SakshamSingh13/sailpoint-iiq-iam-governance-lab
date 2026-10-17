@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE IdentityTrigger PUBLIC "sailpoint.dtd" "sailpoint.dtd">
+<IdentityTrigger attributeName="department" created="1792154538638" handler="sailpoint.api.WorkflowTriggerHandler" id="c0a80004a144155a81a144bc128e00c1" name="Mover" newValueFilter="" oldValueFilter="" type="AttributeChange">
+  <Owner>
+    <Reference class="sailpoint.object.Identity" id="c0a80004a144133a81a14483b63d00e6" name="spadmin"/>
+  </Owner>
+  <HandlerParameters>
+    <Attributes>
+      <Map>
+        <entry key="workflow" value="Lifecycle Event - Email manager for all native changes"/>
+      </Map>
+    </Attributes>
+  </HandlerParameters>
+</IdentityTrigger>
